@@ -1,0 +1,135 @@
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #03386F;
+        padding-right:10px; 
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+
+.sidebar{
+    width:20%;
+    height:100vh;
+    background:#F7546E;
+    float: left;
+    padding-left:10px;
+}
+
+.main-content{
+    width:80%;
+    height:100vh;
+    float: left;
+    background-color: #F2F5FC;
+    overflow: scroll;
+}
+ 
+.sidebar-menu li{
+    height:55px;
+    list-style-type: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-left:20px;
+    font-family: sans-serif;
+    position: relative;
+    transition: 0.8s;
+}
+
+
+.sidebar-menu a{
+    width:100%;
+    text-decoration: none !important;
+    color:white;
+    background-color: aqua;
+}
+
+a{
+    color:black;
+    text-decoration: none !important;
+}
+
+
+header{
+  height:80px;
+  width:100%;
+  box-shadow: -1px 7px 6px -1px rgba(0,0,0,0.22);
+  -webkit-box-shadow: -1px 7px 6px -1px rgba(0,0,0,0.22);
+  -moz-box-shadow: -1px 7px 6px -1px rgba(0,0,0,0.22);
+}
+
+header div{
+    width:50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    color:rgb(29, 31, 32);
+}
+
+header span{
+    font-size:20px;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+
+.search-input{
+    height:30px;
+}
+
+.menu-btn, .close-btn{
+    display: none;
+}
+ 
+.admin-pic-box img{
+    border-radius:100px;
+}
+
+.content-menu{
+    padding: 20px;
+    box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.75);
+    cursor: pointer;
+    border-radius:10px;
+}
+
+.content-menu p{
+    font-weight: bold;
+}
+
+ 
+
+
+@media only screen and (max-width: 991px) {
+
+    .sidebar{
+        width:300px;
+        position: absolute;
+        top: 0px;
+        left:-300px;
+        z-index: 100;
+        transition: 1s;
+    }
+
+    .main-content{
+       width:100%;
+    }
+
+    .menu-btn, .close-btn{
+        display: inline;
+    }
+ 
+
+}
+
+ 

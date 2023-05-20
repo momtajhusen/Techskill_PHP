@@ -1,0 +1,72 @@
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 768px) {
+ 
+    header{
+        display:none;
+    }
+
+    .empty-header{
+        display:none; 
+    }
+
+
+    .lecture-img-box{
+        width:25%;
+    }
+
+    .title-name{
+        width:60%;
+    }
+
+    .video_query_container{
+        padding-bottom:0px;
+    }
+ 
+}
+
+
+ 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    header{
+        display:flex;
+        height:110px;
+        }
+
+    .empty-header{
+        height:115px;
+    }
+
+    .logo-img-pc{
+        display:block;
+    }
+
+    .search-input{
+        width:350px;
+      }
+
+    
+    .profile-btn{
+        display:inline;
+     }
+    
+
+    .logo-img-mobile{
+        display:none;
+    }
+
+    .lecture-img-box{
+        width:13%;
+    }
+
+    .title-name{
+        width:72%;
+    }
+ 
+    .video_query_container{
+        padding-bottom:120px;
+    }
+ 
+ 
+}
+ 

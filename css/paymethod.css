@@ -1,0 +1,99 @@
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 768px) {
+
+    header{
+        display:none;
+    }
+
+    .empty-header{
+        display:none; 
+    }
+}
+ 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    header{
+        display:flex;
+        height:110px;
+        }
+
+    .empty-header{
+        height:115px;
+    }
+
+ 
+    .logo-img-pc{
+        display:block;
+    }
+
+    .search-input{
+        width:350px;
+      }
+
+    
+    .profile-btn{
+        display:inline;
+     }
+    
+
+    .logo-img-mobile{
+        display:none;
+    }
+ 
+
+ 
+}
+
+   /* width */
+   ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #03386F;
+    padding-right:10px;
+    border-radius:10px; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+  header{
+        width:100%;
+        background:#03386F;
+        position:fixed;
+        z-index: 10;
+        box-shadow: 0 8px 6px -6px black;
+  
+    }
+   
+   
+    .search-input{
+      outline:none;
+      border:none;
+    }
+  
+    .search-icon{
+      background:#03386F;
+      border-radius:5px;
+    }
+  
+    a{
+    text-decoration: none;
+    color:black;
+  }
+  
+  a:hover { 
+     text-decoration: none; 
+     color:black;
+  }
+   
+ 

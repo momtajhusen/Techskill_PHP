@@ -1,0 +1,68 @@
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 768px) {
+
+    .logo-img-pc{
+        display:none;
+    }
+
+    header{
+        height:155px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .empty-header{
+        height:155px;
+    }
+
+    .search-input{
+        width:310px;
+      }
+
+    .profile-btn{
+        display: none;
+     }
+
+     .course-head{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+ 
+}
+ 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    header{
+        height:110px;
+        }
+
+    .empty-header{
+        height:110px;
+    }
+
+    .logo-img-pc{
+        display:block;
+    }
+
+    .search-input{
+        width:350px;
+      }
+
+    
+    .profile-btn{
+        display:inline;
+     }
+    
+
+    .logo-img-mobile{
+        display:none;
+    }
+ 
+
+ 
+}
+ 

@@ -1,0 +1,210 @@
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+
+    .logo-img-pc{
+        display:none;
+    }
+
+    header{
+        height:155px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background:#03386F;
+        
+    }
+
+    .empty-header{
+        height:155px;
+    }
+
+    .search-input{
+        width:310px;
+      }
+
+    .login_profile_box{
+        display: none;
+     }
+
+     .course-head{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+    /* Start Course Box manage */
+
+    .course-box{
+        width:300px;
+        height:200px;
+    }
+
+     .banner-box{
+        height:90px;
+    }
+
+    .thum-img{
+       width:95%;
+    }
+
+    .rupes{
+        background: red;
+        display: none;
+    }
+
+    .conter-text{
+        padding:10px;
+        text-align: center;
+    }
+   
+    /* Start Course Box manage */
+    .container-video{
+        width: 45%;
+        height:auto;
+    }
+
+    .container-col{
+        height:73%;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    }
+
+    .recoment{
+        padding:2%;
+        padding-left:7%;
+    }
+
+    .course-name{
+        font-size:13px;
+    }
+
+    .prize-box{
+        font-size:13px; 
+        height:25px;
+    }
+
+    .all-course{
+        display: none;
+    }
+
+    .buttom-menu{
+        display: flex;
+     }
+
+     .content{
+         margin-bottom:100px;
+     }
+ 
+ 
+
+}
+ 
+
+/*  PC & Tablate & Landscape */
+@media only screen and (min-width: 768px) {
+    header{
+        height:110px;
+        }
+
+    .empty-header{
+        height:110px;
+    }
+
+    .logo-img-pc{
+        display:block;
+    }
+
+    .search-input{
+        width:350px;
+      }
+
+    
+    .login_profile_box{
+        display:inline;
+     }
+    
+
+    .logo-img-mobile{
+        display:none;
+    }
+ 
+
+    .course-head{
+        display: flex;
+        padding: 30px;
+        color:red;
+    }
+
+    
+    .banner-box{
+        height:100px;
+    }
+
+    .course-box{
+        width:345px;
+        height:220px;
+    }
+
+    .course-name{
+        font-size:20px;
+    }
+
+    .prize-box{
+        font-size:20px; 
+        height:45px;
+    }
+
+    .conter-text{
+        font-size:15px;
+        padding:10px;
+        text-align: center;
+    }
+
+  .container-col{
+      height:600px;
+    
+  }
+
+    .container-video{
+        width: 20%;
+        height:450px;
+    }
+
+    .recoment{
+        margin-left:5%;
+        padding:1%;
+    }
+
+    .carousel-box{
+        display:none;
+    }
+
+    .all-course{
+        display: none;
+    }
+
+    .buttom-menu{
+        display: none;
+     }
+ 
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up)  */
+@media only screen and (min-width: 1060px) {
+
+    .course-head{
+        color:green;
+    }
+ 
+}
+
+ 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ 
+     .course-head{
+        color:blue;
+    }
+} 
