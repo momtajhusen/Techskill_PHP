@@ -18,11 +18,9 @@ $google_client->setClientId('98202149235-s2k5i5bs0fmo9kbfji7qlhrp83ui18vn.apps.g
 $google_client->setClientSecret('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');
 
 //Set the OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('https://techskill.epizy.com/Login_with_Google/set_user_data.php');
+$google_client->setRedirectUri('http://localhost/TechSkill/Login_with_Google/set_user_data.php');
 
 // to get the email and profile 
 $google_client->addScope('email');
 
 $google_client->addScope('profile');
-
-?>
